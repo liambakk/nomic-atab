@@ -1,131 +1,95 @@
-# Business data handoff brief
+# Atab data handoff
 
 Liam and Atab
 
-Prepared for Ben and the Atab team | 15 September 2026
+For Ben and the Atab team
 
-## Purpose and initial scope
+## What we are putting together
 
-Liam will use records of real business work to build AI evaluations and simulated environments. An evaluation checks whether an AI completes a task correctly. An environment lets the AI inspect records, take actions and repeat the task in a separate system.
+A first set of records that shows how one piece of work actually happens in a business. Start with one company, one workflow and a few completed cases. The aim is to understand what people knew, what they did, what changed and how they checked the result.
 
-The proposed first handoff covers one company, one workflow and three completed cases. Its purpose is to assess the available records, build an initial sample and test buyer interest. The company and workflow will be selected with Ben before the cases are prepared.
+Use what already exists. Exports, documents, short notes and a walkthrough are all useful. There is no need to rewrite existing documentation or fill every field before sending anything. Flag the gaps so Liam knows what to follow up on.
 
-## Responsibilities
+Ben helps choose the starting point and brings in the right people. The Atab team provides the records and explains the platform. Someone at the business helps explain the work and check the cases. Liam handles building and testing the evaluations and simulated environment.
 
-| Owner | Responsibility |
-| --- | --- |
-| Ben | Coordinate the client selection, source access, team support, permissions and proposed handoff date. Ben is Liam's point of contact for Atab. |
-| Atab team | Supply the relevant records and explain the software, fields, actions and existing automation. |
-| Business reviewer | Explain how the work is done and check the rules and acceptable outcomes. Ben identifies a suitable person at the selected business. |
-| Liam | Select tasks; build the evaluations, environment, actions and scoring; test models; handle lab conversations and delivery of the lab product. |
+## 1 Pick a company and workflow
 
-## 1 Select the company and workflow
+Ben: which company has the clearest real examples to start with? YourMart, Nutrigo or Replay could work, but another client is fine if the records are better. Let Liam know what is live and what is still being built.
 
-Provide a short profile of YourMart, Nutrigo and Replay, or another client with better available examples. For each candidate, cover:
+For the company you recommend, a few notes on these points would help:
 
-- Business and software: what the company does and which work Atab's platform handles.
-- Live use: whether the platform is live, when use began and roughly how many people use it.
-- Recurring work: two or three jobs, their approximate frequency, and where decisions, approvals, exceptions or corrections occur.
-- Available history: the date range of records and whether changes are saved or only current values exist.
-- Other sources: relevant emails, WhatsApp messages, spreadsheets, documents or calls outside the platform.
-- Business contact: a person who regularly does the work and can explain actual cases.
+- What the business does and what Atab's platform handles.
+- Two or three recurring jobs, roughly how often they happen and where people need to make decisions or fix problems.
+- Which one workflow you would start with and why.
+- How much history is available, including whether earlier versions and changes are saved.
+- Any related work in email, WhatsApp, spreadsheets or other systems.
+- Who at Atab knows the software and who at the business can explain the work.
 
-Output: a recommended company and workflow, with a short reason for choosing them. Estimates are acceptable. Flag any platform awaiting launch and describe what it will capture.
+Choose one workflow with Liam before gathering the cases. Estimates are fine. If the platform has not launched or the history is limited, say so.
 
-<!-- pagebreak -->
+### What a workflow means here
 
-## 2 Prepare three completed cases
-
-A case is one actual piece of work from its original request or trigger to its outcome. Select one routine case and two involving investigation, a decision or a correction, where available. Include mistakes and failed attempts within the cases, as well as the eventual result.
-
-### Required information for each case
-
-| Required item | What to include |
-| --- | --- |
-| Request and goal | The original request or trigger, date, desired result, deadline and order, ticket or other case reference. |
-| Starting information | The records available before the employee acted, including relevant stock, commitments, previous messages or documents. |
-| Rules and constraints | Instructions, policies, approval limits and other constraints that applied at the time. Identify unwritten rules and who explained them. |
-| Actions and decisions | The sequence of actions, actor or role, timestamp and resulting changes. Include messages, approvals, rejected actions and corrections. Separate human actions from automatic changes. |
-| Actual outcome | Final records and evidence of what happened. Identify anything unresolved or unsuccessful. Keep promised dates and actual dates separate. |
-| Assessment of the result | Why the outcome was acceptable or unacceptable, what would count as an error and whether another resolution could also have been valid. Identify who can check this. |
-
-Use original records wherever possible. Preserve timestamps and references so Liam can connect the files and distinguish information known during the work from information learned afterwards.
-
-### Inventory example
-
-For an order that could not be fulfilled as requested, useful records could include the original order, stock and existing reservations, supplier updates, applicable rules, the employee's decision, approvals or customer agreement, and final fulfilment records. Select a real case and include the evidence that explains the decisions.
-
-### Missing information
-
-Mark any missing history explicitly. An explanation from memory can help, but label it as a recollection. If fewer than three usable cases exist, provide the available cases and list the gaps. Liam will assess whether further collection is worthwhile.
+One job with a clear start and finish, such as handling an order that cannot be fulfilled as requested. Describe the actual job the business does, including decisions or conversations that happen outside the platform.
 
 <!-- pagebreak -->
 
-## 3 Package the records and system notes
+## 2 Pull together a few real cases
 
-Supply CSV, JSON or spreadsheet exports, with relevant original documents and messages alongside them. Screenshots or screen recordings can explain how the software is used. Keep shared records in one place and reference them from the relevant cases.
+Aim for three completed examples from that workflow: one routine case and two where someone had to investigate, make a decision or fix something. If fewer useful cases exist, send what you have and explain the gaps.
 
-### Folder contents
+Each case should show the work from the original request through to the result. Include mistakes, rejected actions and corrections if they happened.
 
-| Folder or file | Contents |
+### What helps for each case
+
+| Part of the case | What to include |
 | --- | --- |
-| Company and workflow | The selected company profile, workflow description, source date range and business contact. |
-| Cases | Separate Case 1, Case 2 and Case 3 folders containing the records and explanation required in section 2. |
-| Rules and instructions | Relevant policies, operating notes and approval limits, with dates or versions where available. |
-| System notes | Field definitions, record relationships, action behaviour and existing automation, as described below. |
-| Handoff notes | An index of files, known gaps, permission status, contact for questions and proposed walkthrough time. |
+| The request | What started the work, what was needed and any deadline. Include the original order, message or ticket where available. |
+| What was known at the start | The records the person could see then, such as stock, existing commitments, previous messages or documents. |
+| Rules that mattered | Relevant instructions, approval limits and other constraints. If a rule is unwritten, say who can explain it. |
+| What happened | The actions, decisions, approvals and messages in order, with timestamps where available. Show what changed and distinguish people from automation. |
+| The result | The final records and what actually happened. Flag anything that failed or stayed unresolved. Keep promised dates separate from actual dates. |
+| How the result was judged | Why the result was acceptable or unacceptable, what would count as a mistake and whether another answer would also have worked. Name someone who can check this. |
 
-### System explanations
+Use clear case and file references so Liam can find the supporting records. Keep what was known during the work separate from information discovered afterwards.
 
-Existing documentation, API descriptions or a walkthrough may cover these points:
+### An inventory example
 
-- Fields: meanings of key IDs, fields and statuses, including units, currencies and timezones.
-- Relationships and history: how records connect and whether each export contains historical changes or only current values.
-- Actions: what each relevant action changes, who can perform it, and what causes acceptance or rejection.
-- Dependencies: steps that rely on another person or system and how the response affects subsequent work.
-- Automation: rules, scripts or AI features already involved, including where people review or override them.
+For an order that could not be fulfilled as requested, useful files might include the original order, stock and reservations, supplier updates, the employee's decision, approvals or customer messages, and the final fulfilment records. Use a real case and include the details that explain the decisions.
 
-For example, if confirming an order also reserves stock, explain both changes. Liam uses this information to implement the simulated actions, resets and checks.
+### If something is missing
 
-### Record handling and access
-
-Preserve the IDs, timestamps, quantities and relationships needed to understand each case. If names or identifiers are replaced, use consistent replacements across files and note the changes.
-
-List gaps as not recorded, needs collecting, needs explanation or permission pending, with the person who can help where known. Share the folder privately with Liam. Any additional walkthrough or separate read-only access can be arranged through Ben after the exports are reviewed.
+A current export may not show what the person saw at the time. If earlier values or steps are missing, flag that. Notes from memory can still help; label them as recollections. The actual result may contain mistakes, so it should be checked rather than assumed to be the right answer.
 
 <!-- pagebreak -->
 
-## 4 Confirm permissions and complete the handoff
+## 3 Explain how the platform works
 
-### Permitted uses
+Existing docs or a screen walkthrough may cover most of this. A few notes on anything unclear are enough:
 
-Ben should identify what existing agreements allow and who can approve any additional use. Record the status of each proposed use:
+- Fields: what the important IDs, statuses and quantities mean, including units, currencies and timezones.
+- Linked records: how orders, stock, messages and other records connect, and how to find their history.
+- Actions: what a person can do, what each action changes, who can do it and why an action might be rejected.
+- Rules and outside steps: relevant business rules, approvals, dependencies and conversations outside the platform.
+- Automation: what the software already does automatically and where people review, correct or override it.
 
-- Sharing source records and business rules with Liam to build evaluations and environments.
-- Testing models, including providing selected material to model providers where needed.
-- Showing selected examples and results privately to prospective lab buyers.
-- Commercially licensing the resulting records, tasks or simulated examples for evaluation or training, including reuse across buyers where permitted.
+For example, if confirming an order also reserves stock, explain both changes and what happens if the order is cancelled. Liam uses these explanations to build the simulated actions and checks.
 
-Note restrictions on confidential information, personal or third-party data, recipients, reuse and retention. Obtain any additional approval in writing before the relevant use. Flag separate restrictions on Atab software or code if either becomes necessary.
+## 4 Send the files and walk through a case
 
-### Time and commercial arrangements
+Share one private folder with Liam. CSV, JSON or spreadsheet exports are fine; include the original documents and messages that explain the cases. Screenshots or a short recording can help show how the software is used.
 
-Provide an estimate of the preparation effort and cost, including Atab team and client time, for agreement with Liam before that work is incurred. Before committing to a commercial delivery, agree payment or revenue sharing for Atab and any participating business, and the ongoing work covered by those terms.
+A useful folder contains:
 
-### Submission checklist
+- A short company and workflow overview.
+- One folder per case, with its notes and connected records.
+- Existing rules, instructions and platform notes.
+- A simple file index and a list of gaps or questions.
+- The names of the people who can help explain the software and the work.
 
-Before sharing the first set, confirm that:
+Preserve timestamps, IDs and relationships between files. If names or identifiers are replaced, use the same replacements throughout. Let Liam know what can be shared, anything left out and who can help with sharing questions.
 
-- The company and workflow are identified, and the files have a clear index.
-- The available cases include connected source records and explanations, with gaps labelled.
-- The business rules, system behaviour and available history are explained or assigned to a person for follow-up.
-- Permission status and any limits are recorded, and material shared with Liam is cleared for that step.
-- The preparation effort or cost is agreed, and Ben has proposed a handoff date and walkthrough time.
+### Before sending
 
-### Review and next steps
+Check that Liam can open the folder, find each case's records and see what is missing. Say when the files are ready and suggest a time to walk through one case with the relevant people. Around 30 minutes is a useful starting point.
 
-Atab handoff: Ben coordinates the private folder delivery and a proposed 30-minute walkthrough with Liam. Include the relevant Atab team member and business reviewer where their input is needed.
-
-Liam's review: Liam checks the cases, identifies missing information and proposes initial tasks. The business reviewer checks the starting information, rules and acceptable outcomes before Liam relies on them for scoring.
-
-Further supply: Liam brings any later request for additional records, format, timing and support back to Ben. Atab should flag whether fresh cases, corrections and dated process or automation changes are already available. Additional collection and recurring delivery are scoped after the first review.
+During the walkthrough, show the original request, the starting records, the decisions and changes, and the result. Explain why the result made sense or where it went wrong. Liam will send back specific questions if anything else is needed.

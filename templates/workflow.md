@@ -1,54 +1,40 @@
-# Workflow description
+# How this workflow works
 
-Company reference: [reference]
+Company:
 
-Workflow reference: [stable reference, such as WORKFLOW-001]
+Workflow or job:
 
-Completed by: [name and role]
+Person who can explain it:
 
-Last updated: [date and timezone]
+## Start and finish
 
-## The job
+- What starts the job?
+- What needs to be achieved?
+- How do people know it is finished?
+- Roughly how often does it happen?
 
-- What starts the work:
-- What the person is trying to achieve:
-- Where the work begins and ends:
-- Typical frequency or volume:
-- Who normally performs it and who approves decisions:
-- Systems, documents and communication channels involved:
+## Walk through the steps
 
-## Steps and decisions
+Describe the usual sequence in a few bullets, or link to existing instructions. For each important step, explain:
 
-| Step | Information available | Person or automation | Action or decision | Resulting change | Evidence or documentation |
-| --- | --- | --- | --- | --- | --- |
-| [1] | [What was known] | [Role or system] | [What happens] | [Records changed or message sent] | [Reference] |
+- What information the person has at that point.
+- What they do or decide, and which records change.
+- Whether a person or the software does it.
+- Whether they need an approval, message or response from someone else.
 
-Explain where a person investigates, makes a judgment, asks someone else, corrects a mistake or overrides automation. Include important work performed outside the platform.
+Include anything important that happens outside the platform.
 
-## Rules and constraints
+## What makes it tricky
 
-- Policies and instructions, with dates or versions:
-- Approval limits and permissions:
-- Time, quantity, money or other constraints:
-- Unwritten rules and the person who can confirm them:
-- Situations where more than one outcome is acceptable:
+- What rules or constraints matter?
+- Where do exceptions, mistakes or corrections come up?
+- Are there unwritten rules? Who can explain them?
+- What makes a result good or bad? Could more than one outcome be acceptable?
 
-Link rules to source documents or label explanations from memory. Use the rule register in the system notes when there are several rules to track.
+## Examples and questions
 
-## Exceptions and outcomes
+- Which real cases show this workflow well?
+- Where are the related records?
+- What is missing or still unclear?
 
-- Routine successful completion:
-- Common exceptions or corrections:
-- What makes an outcome unacceptable:
-- How the business checks that the work is complete:
-- Delayed outcomes that are only known later:
-
-## Evidence and review
-
-- Proposed completed case references:
-- Relevant source file references from the manifest:
-- Historical information that is missing:
-- Questions for the business reviewer:
-- Reviewer name, review date and corrections, when reviewed:
-
-Describe actual business work. Liam will turn the verified description into evaluation tasks and simulated actions.
+These notes describe how the business works. Liam will use them to build the evaluation tasks and simulated actions.

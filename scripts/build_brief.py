@@ -199,7 +199,7 @@ while i<len(lines):
         p.paragraph_format.space_before=Pt(0)
         pagebreak=False
 
-doc.core_properties.title='Business data handoff brief'
+doc.core_properties.title='Atab data handoff'
 doc.core_properties.subject='Liam and Atab'
 doc.core_properties.author='Liam Bakker'
 doc.core_properties.last_modified_by='Liam Bakker'

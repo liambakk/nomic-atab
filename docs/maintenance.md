@@ -22,6 +22,6 @@ The builder supports this brief's headings, paragraphs, bullets, two-column tabl
 
 ## Review before sharing
 
-Open or render every page after regeneration. Check wording, page breaks, table wrapping, footer position and font. The approved starting version has four pages. Helvetica must be available to the application rendering the document; font substitution can change its appearance even when the file specifies Helvetica.
+Open or render every page after regeneration. Check wording, page breaks, table wrapping, footer position and font. The current guide has three pages. Helvetica must be available to the application rendering the document; font substitution can change its appearance even when the file specifies Helvetica.
 
 Commit the updated Markdown and reviewed Word copy together. If only a case or system note changes, regenerating the brief is unnecessary.

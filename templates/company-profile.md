@@ -1,43 +1,32 @@
-# Company profile
+# A bit about the company
 
-Completed by: [name and role]
+Short answers are fine. Link to existing docs if they already cover this.
 
-Last updated: [date and timezone]
+## The basics
 
-## Business and software
+- Which company is this, and what does it do?
+- What does Atab's platform handle?
+- Is the platform live? Since when, and roughly who uses it?
 
-- Company name or agreed reference:
-- What the business does:
-- What work Atab's platform handles:
-- Platform name or reference:
-- Live status and date real use began, or expected launch if known:
-- Approximate number and roles of active users:
+## Where should we start
 
-## Candidate workflows
+- What are two or three recurring jobs people do in the platform?
+- Roughly how often do they happen?
+- Where do people need to investigate, make a decision or fix something?
+- Which one job would you start with, and why?
 
-| Workflow | Typical frequency or volume | Decisions or exceptions | Available real records |
-| --- | --- | --- | --- |
-| [Job 1] | [Estimate is fine] | [What needs judgment] | [Evidence and date range] |
-| [Job 2] | [Estimate is fine] | [What needs judgment] | [Evidence and date range] |
-| [Job 3 if useful] | [Estimate is fine] | [What needs judgment] | [Evidence and date range] |
+## What records are available
 
-Recommended first workflow and reason:
+- How far back do the records go?
+- Can we see past changes and actions, or only the current values?
+- Does part of the work happen in email, WhatsApp, spreadsheets or somewhere else?
+- Are there existing exports, docs or examples we can use?
+- What is missing or difficult to pull together?
 
-## Available history
+## Who can help
 
-- Earliest and latest useful records:
-- Whether previous values, actions and timestamps are retained:
-- Sources outside the platform, such as messages, spreadsheets and documents:
-- Useful records that do not exist or require further collection:
-- Existing documentation, exports or walkthroughs that can be reused:
+- Who at Atab knows the software?
+- Who at the company can explain the work and check the examples?
+- When could the first files be ready, and when could we walk through one case?
 
-## People and next step
-
-- Ben's proposed Atab technical contact:
-- Person at the business who performs or supervises this work:
-- Person who can confirm permitted uses of the records:
-- Preparation effort and any cost to discuss:
-- Proposed handoff date and walkthrough time:
-- Other questions or constraints:
-
-Use the private handoff folder for contact details if they should not be visible to everyone in this repository. Flag estimates, unknowns and pending approvals.
+Keep client details and completed notes in the private folder sent to Liam. If anything needs checking before it can be shared, flag it and say who can help.

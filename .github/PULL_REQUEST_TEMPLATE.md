@@ -1,13 +1,9 @@
-## Change
+## What changed
 
-What changed, and which workflow, case or rule does it affect?
+A few words on the change and the workflow or case it relates to.
 
-## Evidence and review
+## Anything to check
 
-Source file references, reviewer and date, or link to the relevant question. Label assumptions and unresolved points.
+Relevant file references, who explained it, or questions for Liam. Keep client details in the private handoff folder.
 
-## Before merging
-
-- [ ] Included material is cleared for repository collaborators; source exports remain in the private folder.
-- [ ] Related case references, file index and confirmed decisions are updated where needed.
-- [ ] If the brief wording changed, the Word copy was regenerated and every page reviewed.
+If the guide wording changed, regenerate the Word copy and check the pages before sharing it.

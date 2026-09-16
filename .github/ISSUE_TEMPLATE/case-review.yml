@@ -1,46 +1,46 @@
-name: Case ready for review
-description: Point Liam to a completed case and identify the remaining gaps.
+name: A case to look at
+description: Let Liam know a case is ready and flag anything missing.
 title: "Review case: "
 body:
   - type: input
     id: case_reference
     attributes:
       label: Case reference
-      description: Use the reference from the case notes and manifest.
+      description: Use the name or reference from the case notes.
     validations:
       required: true
   - type: input
     id: case_location
     attributes:
       label: Case notes location
-      description: Repository path or access-controlled private folder location, without credentials.
+      description: Where can Liam find the notes? Keep client details in the private folder.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: available
     attributes:
       label: What is available?
-      description: Summarise the case and source file references. Keep confidential details in the approved source location.
+      description: A short outline is enough. Keep client details in the private folder.
     validations:
       required: true
   - type: textarea
     id: gaps
     attributes:
       label: Gaps or questions
-      description: Include missing history, unclear rules, outcome questions or permission limits. State none known if appropriate.
+      description: Anything missing or unclear that Liam should know?
     validations:
-      required: true
+      required: false
   - type: input
     id: reviewer
     attributes:
-      label: Business reviewer
-      description: Who can explain the case and assess the outcome? State not yet identified if unknown.
+      label: Who can explain the case?
+      description: Name the person or role if known.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: permission
     attributes:
-      label: Permission for this review
-      description: Reference the permission record and limits. Leave pending if it has not been confirmed.
+      label: Sharing notes for Liam
+      description: Flag anything that cannot be shared or still needs checking. Keep the details in the private folder.
     validations:
-      required: true
+      required: false

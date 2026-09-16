@@ -1,5 +1,5 @@
 name: Question or missing information
-description: Record a gap that needs an answer, records or a permission check.
+description: Flag something missing or a question for the team.
 title: "Question: "
 body:
   - type: input
@@ -19,7 +19,7 @@ body:
   - type: dropdown
     id: status
     attributes:
-      label: Gap status
+      label: What kind of gap is it?
       options:
         - Needs explanation
         - Not recorded
@@ -30,15 +30,15 @@ body:
   - type: textarea
     id: evidence
     attributes:
-      label: Relevant evidence
-      description: Use file references or access-controlled links. Include only material cleared for repository collaborators.
+      label: Anything that would help explain it?
+      description: Use references suitable for the repository's readers. Keep client records and sensitive details in the private handoff folder.
   - type: input
     id: contact
     attributes:
       label: Who could help?
-      description: Name a person or role if known. This does not assign them a deadline.
+      description: Name a person or role if known.
   - type: input
     id: timing
     attributes:
-      label: Agreed timing, if any
-      description: Leave blank if no timing has been agreed.
+      label: Any timing to keep in mind?
+      description: Leave blank if there is nothing specific.

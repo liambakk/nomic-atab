@@ -1,43 +1,38 @@
-# System notes
+# How the platform works
 
-Copy this file into the selected workflow's handoff folder as `system-notes.md`. Link existing documentation where it already answers a question. Atab supplies explanations of the source platform; Liam implements the evaluation and simulated environment.
+Existing docs, exports or a walkthrough may answer most of this. Add a few notes on anything that is not obvious.
 
-Prepared by: [name and role]
+Platform and company:
 
-Platform and version or date: [reference]
+Atab contact:
 
-## Fields and relationships
+## What the fields mean
 
-| Record or table | Field | Meaning and data type | Units, currency or timezone | Allowed values | Related record or key |
-| --- | --- | --- | --- | --- | --- |
-| [Record] | [Field] | [Meaning] | [Units or not applicable] | [Values] | [Relationship] |
+Explain the important IDs, statuses and quantities, including units, currencies and timezones. Say how missing values are represented.
 
-Explain which identifiers connect exports, how null or missing values are represented, and whether timestamps describe creation, an event, an update or an export. Note whether records are current snapshots or historical events and how earlier states can be recovered.
+## How records connect
 
-## Actions
+Which records link together, and through which IDs? Can we see the sequence of changes or only the latest values? Explain what each timestamp refers to.
 
-| Action | Inputs | Who may perform it | Checks before acceptance | Resulting changes | Failure or rejection behaviour | Side effects or dependencies |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Action] | [Inputs] | [Role] | [Checks] | [Records changed] | [What happens] | [Other systems, people or messages] |
+## What actions do
 
-Describe what happens when an action is retried or corrected, where known. For example, if confirming an order reserves stock, explain both effects and any relevant cancellation behaviour. This is an illustrative question, not an assertion about an Atab platform.
+For each action relevant to the chosen workflow, explain:
 
-## Rules
+- What information it needs.
+- Who can perform it and what could cause it to be rejected.
+- Which records change and whether anything else happens automatically.
+- What happens if it is repeated, cancelled or corrected, where known.
 
-| Rule reference | Rule | Source or reviewer | Version or applicable dates | Status |
-| --- | --- | --- | --- | --- |
-| [RULE-001] | [Description] | [File reference or reviewer] | [Date or unknown] | [Documented / recollection / confirmed by reviewer / needs confirmation] |
+For example, if confirming an order reserves stock, explain both changes. This is just an example of the detail that helps.
 
-Include business constraints and approval rules. Distinguish a source policy from an implementation detail or an assumption.
+## Rules and automation
 
-## Automation and outside work
+- Which business rules or approval limits matter?
+- What does the software already do automatically?
+- Where can people review, change or override it?
+- Which steps depend on email, messages or another system?
+- Have there been platform or process changes that affect the cases we are looking at?
 
-- Existing rules, scripts or AI features:
-- Where people review, correct or override them:
-- Relevant work in email, WhatsApp, spreadsheets or other systems:
-- Approvals or responses that happen outside the platform:
-- Known platform or process changes affecting the supplied date range:
+## Anything unclear
 
-## Gaps and follow-up
-
-List what is not recorded, needs collecting, needs explanation or has permission pending. Identify the person who can help. Ben can arrange a walkthrough or additional access after Liam reviews the exports.
+Flag gaps and say who can help. Ben can arrange a walkthrough if that is easier than writing everything down. Liam handles turning these explanations into the simulated environment.

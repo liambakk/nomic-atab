@@ -1,10 +1,10 @@
-# Source records and file index
+# Keeping the files organised
 
-Keep the source exports in a private folder agreed with Liam. The repository holds instructions, approved explanatory material and an index. Share a folder link that requires the intended person's access; do not put passwords, access tokens or signed download links in the index or issues.
+Keep the source files in a private folder shared with Liam. Use clear file names and point to them from the case notes. Keep passwords and access tokens out of the notes and index.
 
 ## File index
 
-Add one row per source file or distinct version in [data-manifest.csv](../data-manifest.csv). The file starts with column names only; it contains no supplied records.
+The [file index](../data-manifest.csv) is there if helpful. Start with the file name, where to find it and which case it relates to. Fill the other columns where the information is available; there is no need to fill every cell before sharing the files. Use one row per file or version.
 
 | Column | Meaning |
 | --- | --- |
@@ -19,7 +19,7 @@ Add one row per source file or distinct version in [data-manifest.csv](../data-m
 | `period_start` and `period_end` | Dates covered, where known. |
 | `exported_at` | Export date and time, including timezone. |
 | `version` | Export or file version; preserve older versions if needed and permitted. |
-| `permission_ref` | Reference to the applicable permission record and scope. |
+| `permission_ref` | Reference to the sharing notes for the material sent to Liam. |
 | `notes` | Gaps, replacements or other interpretation needed. |
 
 Use `unknown` or `not applicable` where appropriate. Preserve original records and note any changes. If names or IDs are replaced, use consistent replacements across related files so cases can still be connected.
@@ -30,4 +30,4 @@ If an engineer needs local working copies, use `data/raw/`, `data/exports/` or `
 
 ## Small examples in the repository
 
-Include an example or case narrative only when its contents are cleared for the repository's collaborators. Cases can contain confidential details even when the source files are stored elsewhere. Otherwise keep the completed notes with the source records and use a reference here. Identify invented teaching examples explicitly and keep them separate from real cases.
+Complete real case narratives alongside the source records in the private folder. Repository examples must be suitable for its readers; while the repository is public, that means anyone on the web. Identify invented teaching examples explicitly and keep them separate from real cases.

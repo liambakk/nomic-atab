@@ -1,76 +1,55 @@
-# Completed case
+# One real example
 
-Copy this template for each real case. Use the available evidence and label gaps. One case is one piece of work from its original request or trigger through its outcome.
+Copy these prompts for each completed case. Short notes and links to the actual records are fine. If something is missing, say so.
 
-## Case details
+Company and workflow:
 
-- Case reference: [stable reference, such as CASE-001]
-- Company and workflow reference:
-- Case type: [routine / exception / investigation / correction / other]
-- Original order, ticket or record reference:
-- Start and end dates, including timezone:
-- Prepared by, role and preparation date:
-- Business reviewer:
-- Review status: [not reviewed / questions open / reviewed with recorded corrections]
+Case name or reference, such as Case 1:
 
-## Request and goal
+Rough date range and timezone:
 
-- Original request or trigger, with source file reference:
-- Desired result:
-- Deadline or other stated requirements:
+Person who can explain it:
 
-Preserve the original request where permitted. Label a summary as a summary.
+## What kicked it off
 
-## Starting information
+What was requested, by whom or by which system, and what needed to happen? Include the original order, message or ticket and any deadline.
 
-| Information available when the work began | Source file reference and location | Relevant timestamp | Known limitations |
-| --- | --- | --- | --- |
-| [Stock, commitments, earlier messages or other context] | [FILE-001; sheet, row, record or page] | [Timestamp and timezone] | [Missing, inferred or complete] |
+## What was known at the start
 
-List separately any facts discovered later. A current export may differ from what the person could see at the time; explain whether the earlier state can be recovered.
+Which records and information could the person see then? Point to the relevant stock, commitments, messages, documents or other context.
 
-## Rules and constraints
+If an export only shows today's values, say whether the earlier state can be recovered. Keep information discovered later separate from what was known at the time.
 
-| Rule or constraint | Source or person who explained it | Version or applicable date | Status |
-| --- | --- | --- | --- |
-| [Rule] | [File reference or named role] | [Date or unknown] | [Documented / recollection / needs confirmation] |
+## What rules mattered
 
-Include approvals, existing commitments, deadlines and permitted alternatives.
+What instructions, limits or approvals shaped the decision? Link to existing rules where possible. If a rule is unwritten, say who can explain it.
 
 ## What happened
 
-| Time | Person or automation | Information available at this point | Action or decision | Resulting change or response | Source file reference and location |
-| --- | --- | --- | --- | --- | --- |
-| [Timestamp and timezone] | [Role or system] | [Context] | [What happened and reason if recorded] | [State change, message, rejection or approval] | [Reference] |
+Describe the sequence in bullets or use the table below if it helps. Include rejected actions, corrections and work outside the platform.
 
-Include failed actions, corrections, approvals, overrides and work outside the platform. Keep the actual sequence separate from any reconstruction. Do not invent missing intermediate steps.
+| When | What the person or software did and why | What changed and where to find it |
+| --- | --- | --- |
+| [Time, if available] | [Action or decision] | [Result and file reference] |
 
-## Outcome and assessment
+Show which steps were done by people and which were automatic. Don't fill in missing steps by guessing. If someone is explaining from memory, label that.
 
-- Actual final outcome and supporting records:
-- Promised dates versus actual dates, if relevant:
-- Anything unsuccessful or unresolved:
-- Why the business considers the result acceptable or unacceptable:
-- Other resolutions that would also have been acceptable:
-- Specific mistakes that should count as failure:
-- Who can confirm this assessment:
+## How it turned out
 
-The actual outcome is evidence to assess; it may contain errors and is not automatically the ideal answer.
+- What actually happened? Point to the final records.
+- Was anything unsuccessful or left unresolved?
+- Did the result meet the business's needs? Why or why not?
+- Would another result also have been acceptable?
+- What would count as a clear mistake?
+- Who can check this explanation?
 
-## Files and gaps
+The actual outcome may contain mistakes, so flag those rather than treating it as the answer to copy.
 
-- File references in the manifest:
-- Notes on consistently replaced names or identifiers:
-- Permission record covering this case:
+## Files and loose ends
 
-| Gap or question | Status | Person who can help | Effect on understanding the case |
-| --- | --- | --- | --- |
-| [Gap] | [Not recorded / needs collecting / needs explanation / permission pending] | [Name or role] | [What cannot yet be established] |
+- Where are the supporting files? Use clear references that match the file index.
+- Is any information missing, hard to recover or waiting for an explanation?
+- Has anything been left out or had names or IDs replaced?
+- Who can help with the remaining questions?
 
-## Review record
-
-- Reviewed by and date:
-- Confirmed facts and rules:
-- Corrections or acceptable alternatives identified:
-- Remaining questions:
-- References to any resulting decisions:
+Keep the completed case and client files in the private folder shared with Liam.
