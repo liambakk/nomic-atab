@@ -1,0 +1,21 @@
+# Source records stay in access-controlled storage.
+/data/raw/
+/data/exports/
+/data/private/
+/private/
+/uploads/
+
+# Credentials and local configuration.
+.env
+.env.*
+*.pem
+*.key
+
+# Local tooling and rendered review files.
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+~$*
+/work/
+/render/

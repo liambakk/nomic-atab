@@ -1,0 +1,44 @@
+name: Question or missing information
+description: Record a gap that needs an answer, records or a permission check.
+title: "Question: "
+body:
+  - type: input
+    id: reference
+    attributes:
+      label: Company, workflow or case reference
+      description: Identify which part of the handoff this affects.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What is missing or unclear?
+      description: Explain the question and what it prevents us from understanding.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Gap status
+      options:
+        - Needs explanation
+        - Not recorded
+        - Needs collecting
+        - Permission pending
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant evidence
+      description: Use file references or access-controlled links. Include only material cleared for repository collaborators.
+  - type: input
+    id: contact
+    attributes:
+      label: Who could help?
+      description: Name a person or role if known. This does not assign them a deadline.
+  - type: input
+    id: timing
+    attributes:
+      label: Agreed timing, if any
+      description: Leave blank if no timing has been agreed.
