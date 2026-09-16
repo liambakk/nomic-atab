@@ -1,6 +1,6 @@
 # One real example
 
-Copy these prompts for each completed case. Short notes and links to the actual records are fine. If something is missing, say so.
+Use these prompts later, when Liam has identified a workflow and asked to look at a specific example. Short notes and links to the actual records are fine. There is no fixed case count for the first data handoff.
 
 Company and workflow:
 

@@ -1,5 +1,5 @@
 name: A case to look at
-description: Let Liam know a case is ready and flag anything missing.
+description: For a specific example after Liam has reviewed the data and identified a workflow.
 title: "Review case: "
 body:
   - type: input

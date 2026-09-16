@@ -10,7 +10,7 @@ The issue forms are available for general questions or updates. Keep client reco
 
 ## Keeping the notes useful
 
-- Say which workflow or case you are referring to.
+- Say which company, platform or file you are referring to. Add workflow or case references once those exist.
 - Point to the supporting file, or say who explained something and when.
 - Flag gaps and anything based on memory.
 - If an explanation changes, update the affected notes.

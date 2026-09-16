@@ -7,4 +7,4 @@ A short note is enough. Keep it with the files you send privately to Liam.
 - Is anything waiting for someone else's confirmation? Who can help?
 - Are there any access or retention limits Liam needs to know about?
 
-If something is missing for one of these reasons, say which case it affects. Use consistent replacements across files so the records still connect.
+If something is missing for one of these reasons, say which files or information are affected. Use consistent replacements across files so the records still connect.

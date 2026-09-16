@@ -1,17 +1,17 @@
 # Keeping the files organised
 
-Keep the source files in a private folder shared with Liam. Use clear file names and point to them from the case notes. Keep passwords and access tokens out of the notes and index.
+Keep the source files in a private folder shared with Liam. Use clear file names and add a short explanation of what each contains. Keep passwords and access tokens out of the notes and index.
 
 ## File index
 
-The [file index](../data-manifest.csv) is there if helpful. Start with the file name, where to find it and which case it relates to. Fill the other columns where the information is available; there is no need to fill every cell before sharing the files. Use one row per file or version.
+The [file index](../data-manifest.csv) is there if helpful. Start with the file name, company or platform, what the file contains and the period covered. Workflow and case references can stay blank until Liam has reviewed the data. Fill the other columns where the information is available; use one row per file or version.
 
 | Column | Meaning |
 | --- | --- |
-| `file_id` | Stable reference such as `FILE-001`; use it in case notes. |
+| `file_id` | Simple reference such as `FILE-001`; use it when pointing to this file. |
 | `company_ref` | Selected company name or consistent reference. |
-| `workflow_ref` | Reference used in the workflow description. |
-| `case_refs` | Related case references separated by semicolons. |
+| `workflow_ref` | Optional later, once a workflow has been identified. |
+| `case_refs` | Optional later, once specific cases are being explored; separate multiple references with semicolons. |
 | `filename` | File name within the private source folder. |
 | `private_location` | Folder-relative path or access-controlled link, without credentials. |
 | `source_system` | System, document collection or communication channel of origin. |
@@ -22,7 +22,7 @@ The [file index](../data-manifest.csv) is there if helpful. Start with the file 
 | `permission_ref` | Reference to the sharing notes for the material sent to Liam. |
 | `notes` | Gaps, replacements or other interpretation needed. |
 
-Use `unknown` or `not applicable` where appropriate. Preserve original records and note any changes. If names or IDs are replaced, use consistent replacements across related files so cases can still be connected.
+Leave unknown fields blank or add a short note. Preserve original records and note any changes. If names or IDs are replaced, use consistent replacements across related files so the records still connect.
 
 ## Local copies
 

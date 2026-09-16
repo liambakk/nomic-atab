@@ -1,25 +1,22 @@
-# Putting the folder together
+# Putting the first folder together
 
-One private folder for the chosen company and workflow is enough. Use your existing structure if it is already clear.
-
-For example:
+Group the available data by company or platform. Use your existing structure if it is already clear. A first sample can look like this:
 
 ```text
-company-and-workflow/
+company-or-platform/
   overview.md
-  workflow.md
-  platform-notes.md
-  sharing-notes.md
-  file-index.csv
-  case-1/
-    notes.md
-    supporting-files/
-  case-2/
-  case-3/
+  exports/
+  history/
+  supporting-docs/
+  notes.md
 ```
 
-The [company](../templates/company-profile.md), [workflow](../templates/workflow.md), [case](../templates/case.md), [platform](../system-notes/README.md) and [sharing](../permissions.md) prompts can help. Use only the case folders you need; fewer cases are fine if that is what is available.
+Use the folders that match what is available. The overview can explain what the company does, what the platform stores and the period covered. Notes can explain file names, linked IDs and anything missing.
 
-Keep shared source files in one place and point to them from each case. The [file index](../data-manifest.csv) is there if useful. Clear file names and references matter more than following this exact layout.
+Keep related records together and preserve the IDs that connect them. The [file index](../data-manifest.csv) is there if useful; workflow and case references can stay blank until we identify those.
 
-Send the folder privately to Liam with any gaps or questions and a suggested walkthrough time. The [checklist](../handoff-checklist.md) is a quick final reminder.
+Share the folder privately with Liam. The [company and data prompts](../templates/company-profile.md), [platform notes](../system-notes/README.md) and [sharing prompts](../permissions.md) can help explain it.
+
+## Later on
+
+Once Liam has reviewed the data and suggested a workflow to explore, we can group the relevant files into specific cases and use the [workflow](../templates/workflow.md) and [case](../templates/case.md) prompts. That organisation can happen after the first review.

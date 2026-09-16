@@ -1,6 +1,6 @@
 ## What changed
 
-A few words on the change and the workflow or case it relates to.
+A few words on the change and the company, platform or files it relates to. Add workflow or case references later if useful.
 
 ## Anything to check
 

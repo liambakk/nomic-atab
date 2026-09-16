@@ -1,28 +1,25 @@
-# Quick handoff checklist
+# Getting the first data together
 
-Use this as a reminder of what to send. Existing files and short answers are fine; flag anything missing.
+Start with what is available. Workflow selection and detailed case notes come after Liam has looked at the data.
 
-## The starting point
+## First overview
 
-- [ ] Recommend one company and workflow, and say whether the platform is live.
-- [ ] Confirm the starting point with Liam before pulling the cases together.
-- [ ] Name someone at Atab who knows the software and someone at the business who knows the work.
+- [ ] Say which platforms have real use, what each stores and roughly how much history is available.
+- [ ] Point to existing exports, docs or other records that can be shared.
+- [ ] Name someone who knows the software and someone who can explain the business.
 
-## The records
+The [company and data prompts](templates/company-profile.md) can help. Short answers or existing docs are fine.
 
-- [ ] Add a short [company overview](templates/company-profile.md) and [workflow description](templates/workflow.md).
-- [ ] Pull together a few [completed cases](templates/case.md). Aim for one routine case and two involving a decision, investigation or correction, where available.
-- [ ] Include the original request, starting records, relevant rules, actions and final result for each case.
-- [ ] Explain why each result was acceptable or unacceptable, and who can check it.
-- [ ] Add existing docs or a few [platform notes](system-notes/README.md) on fields, actions, history and automation.
-- [ ] Use clear case and file references. The [file index](data-manifest.csv) is there if helpful.
-- [ ] List missing records, unclear points or information that exists only in someone's memory.
+## First sample
 
-## Sending it over
+- [ ] Share an accessible sample of related records privately with Liam, with the period covered.
+- [ ] Explain what the files mean and which IDs connect them.
+- [ ] Include available history, messages, rules or outcome records that help explain the sample.
+- [ ] Flag missing history, unclear fields, excluded material or sharing questions.
+- [ ] Check Liam can open the folder and find the records.
 
-- [ ] Put the client files and completed notes in a private folder shared with Liam.
-- [ ] Flag anything that cannot be shared or needs names or IDs replaced. The [sharing prompts](permissions.md) can help.
-- [ ] Check Liam can open the folder and find the records for each case.
-- [ ] Suggest a time to walk through one case together, with the right people available.
+Use your existing folder structure if it is clear. The [folder example](handoffs/README.md), [platform prompts](system-notes/README.md) and [file index](data-manifest.csv) are optional aids.
 
-If fewer than three useful cases exist, send what you have. Liam will follow up with specific questions.
+## After Liam has reviewed it
+
+Liam will suggest promising workflows and ask for specific examples or explanations. That is when the [workflow](templates/workflow.md) and [case](templates/case.md) prompts become useful. Someone who knows the work can help check what happened and whether the result was good or bad.

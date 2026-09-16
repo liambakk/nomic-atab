@@ -1,4 +1,6 @@
-# How this workflow works
+# Exploring a workflow from the data
+
+Use these prompts after Liam has reviewed the available data and suggested a workflow to explore. They are not needed for the first data handoff.
 
 Company:
 

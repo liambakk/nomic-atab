@@ -1,32 +1,36 @@
-# A bit about the company
+# What data is available
 
-Short answers are fine. Link to existing docs if they already cover this.
+A few notes are enough. Existing docs or a walkthrough are fine too. This helps Liam understand the available data before choosing which workflows to explore.
 
-## The basics
+## The company and platform
 
 - Which company is this, and what does it do?
 - What does Atab's platform handle?
-- Is the platform live? Since when, and roughly who uses it?
+- Is it live? Roughly who uses it, and since when?
 
-## Where should we start
+## What is in the platform
 
-- What are two or three recurring jobs people do in the platform?
-- Roughly how often do they happen?
-- Where do people need to investigate, make a decision or fix something?
-- Which one job would you start with, and why?
+- What types of records does it hold, such as orders, stock, invoices, requests or other business records?
+- How far back do they go?
+- Are edits, status changes, actions and timestamps saved, or only the current values?
+- How do related records connect?
+- Does useful context also live in email, WhatsApp, spreadsheets or other systems?
 
-## What records are available
+## What could be shared first
 
-- How far back do the records go?
-- Can we see past changes and actions, or only the current values?
-- Does part of the work happen in email, WhatsApp, spreadsheets or somewhere else?
-- Are there existing exports, docs or examples we can use?
-- What is missing or difficult to pull together?
+- Are there existing exports or a sample of related records we can look at?
+- What period would the sample cover, and what would be left out?
+- Are there docs or rules that help explain it?
+- Is anything missing, difficult to export or waiting for confirmation before it can be shared?
+
+## A bit of context
+
+If useful, mention what people generally do with the platform and where exceptions or corrections come up. There is no need to choose a workflow or prepare detailed cases at this point.
 
 ## Who can help
 
-- Who at Atab knows the software?
-- Who at the company can explain the work and check the examples?
-- When could the first files be ready, and when could we walk through one case?
+- Who at Atab knows the data and software?
+- Who at the company can explain the work behind the records?
+- When could a first sample or walkthrough be available?
 
-Keep client details and completed notes in the private folder sent to Liam. If anything needs checking before it can be shared, flag it and say who can help.
+Send completed notes and client files privately to Liam.

@@ -1,40 +1,53 @@
-# Liam and Atab data handoff
+# Liam and Atab
 
-A simple guide for Ben and the team to get the first set of business records together. Start with one company, one workflow and a few real examples of the work being done.
+This guide gives Ben and the team a bit of context on the data we're looking for, why it helps and what we might build from it.
 
-Use what's already available. Existing docs, exports, short notes and a walkthrough are all useful. You don't need to fill every box or rewrite something that's already explained elsewhere. Just flag what's missing.
+We start with the business data that's already available. Liam looks through it, with help from the team, to find useful workflows: real jobs where someone uses information, makes decisions and changes something. Once a promising workflow is clear, we can pull together specific examples and understand it in more detail.
 
-## What to send
+## What we're trying to build
 
-| Item | What would help |
+The aim is to turn real work into tasks an AI can try, with enough context to act and a way to check the result. An evaluation checks whether it got the task right. A simulated environment lets it work through the steps in a separate system.
+
+To do that, we need to understand what was happening, what information was available, what actions were taken and how the result was judged.
+
+## What data would help
+
+| Data | Why it's useful |
 | --- | --- |
-| A bit about the company and workflow | What the business does, what the platform handles and which job we should start with. |
-| A few completed cases | Aim for one routine case and two where someone had to investigate, make a decision or fix something. Include the records showing what happened. |
-| A guide to the platform | What the key fields mean, how records connect, what actions change and which rules or automations matter. |
-| Someone to walk us through it | An Atab contact for the software and someone at the business who knows the work. |
+| Business records | Orders, stock, suppliers, invoices, requests or other records show what the business is working with. |
+| History and changes | Timestamps, status changes, edits and activity logs help show what happened in what order. Human actions and existing automation both matter. |
+| Related messages and documents | Emails, WhatsApp messages, spreadsheets and documents can explain requests, decisions or exceptions that the platform alone doesn't show. |
+| Rules and outcomes | Instructions, approval rules, completed work and corrections help us understand what a good result looks like. |
 
-## Start here
+Send what exists and flag what doesn't. A small sample of related records is a useful starting point; the first step is understanding what is available.
 
-1. Ben recommends a company and workflow with useful real records. YourMart, Nutrigo or Replay could be starting points; another client is fine. Let Liam know what's live and which has the clearest examples.
-2. Once the starting point is clear, the team pulls together the cases and supporting files. If fewer than three useful cases exist, send what you have.
-3. Share the folder privately with Liam and suggest a time to go through one case together. Around 30 minutes is a useful starting point.
+## How the process works
 
-Liam will review the material, follow up on gaps and build the evaluations and simulated environment.
+1. Ben gives Liam an overview of the platforms and the types of data available, then shares an accessible sample privately.
+2. Liam reviews the data with the team's help and looks for recurring jobs, decisions, exceptions and outcomes that can be checked.
+3. We narrow down the promising workflows and follow up on specific records or explanations.
+4. Liam turns the supported workflows into evaluation tasks or simulated environments, with someone who knows the business checking that they make sense.
 
-## Prompts to help the team
+Workflow selection comes after the first look at the data. Ben's initial role is to help surface the available records and explain what they represent.
 
-- [Company overview](templates/company-profile.md)
-- [Workflow notes](templates/workflow.md)
-- [Case notes](templates/case.md) — copy once for each example
-- [How the platform works](system-notes/README.md)
-- [Anything to know before sharing](permissions.md)
+## An example
 
-The [full guide](brief.md) brings these together. There's also a [Word copy](deliverables/Ben%20-%20Liam%20and%20Atab%20data%20brief.docx) and a [quick checklist](handoff-checklist.md).
+Order, stock and supplier records might reveal cases where an order couldn't be fulfilled as planned. Related messages and changes could show how someone spotted the problem, chose another option and updated the order.
 
-## Sending it over
+That could become a task where an AI has to resolve a similar situation while respecting stock, deadlines and approvals. The actual records will tell us whether this is a useful direction. It's an illustration, rather than a workflow already selected for Atab.
 
-Keep each case's notes and files together, and use clear references so Liam can connect them. The [folder example](handoffs/README.md) and [file index](data-manifest.csv) are there if useful.
+## What to send first
 
-The repository is public for now. Send client records and filled-in notes privately to Liam. If something can't be shared, just say what's missing and who can help.
+- Which platforms have real use and what each stores. YourMart, Nutrigo and Replay are possible starting points; another client is fine.
+- Existing exports or a sample of related records, with the period covered.
+- A few notes on what the files mean and how they connect.
+- Any existing docs or rules that help explain them.
+- Who can answer questions about the software and the business.
 
-You can send everything directly to Liam without using Git. For anyone editing the repository, the [contribution notes](CONTRIBUTING.md) explain how. The [notes page](decisions.md) can hold non-sensitive answers from walkthroughs.
+The [company and data prompts](templates/company-profile.md) and [quick checklist](handoff-checklist.md) can help. Existing docs and short answers are fine. Send client files and filled-in notes privately to Liam.
+
+## More detail if useful
+
+The [full guide](brief.md) and [Word copy](deliverables/Ben%20-%20Liam%20and%20Atab%20data%20brief.docx) explain the idea in one place. There are also [platform prompts](system-notes/README.md), a [folder example](handoffs/README.md) and [sharing notes](permissions.md).
+
+The [workflow](templates/workflow.md) and [case](templates/case.md) prompts are for later, once we've seen the data and know what to explore. They don't need filling in for the first handoff.

@@ -5,8 +5,8 @@ body:
   - type: input
     id: reference
     attributes:
-      label: Company, workflow or case reference
-      description: Identify which part of the handoff this affects.
+      label: Company, platform or file
+      description: Identify the data this affects. Add a workflow or case reference later if useful.
     validations:
       required: true
   - type: textarea

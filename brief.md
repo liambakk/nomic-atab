@@ -1,95 +1,71 @@
-# Atab data handoff
+# Atab data and workflow guide
 
 Liam and Atab
 
 For Ben and the Atab team
 
-## What we are putting together
+## The idea
 
-A first set of records that shows how one piece of work actually happens in a business. Start with one company, one workflow and a few completed cases. The aim is to understand what people knew, what they did, what changed and how they checked the result.
+Start with the business data that is already available, then look for useful workflows within it. Ben and the team help surface the records and explain what they mean. Liam reviews them, identifies promising work to model and follows up on the details.
 
-Use what already exists. Exports, documents, short notes and a walkthrough are all useful. There is no need to rewrite existing documentation or fill every field before sending anything. Flag the gaps so Liam knows what to follow up on.
+The aim is to turn real work into tasks an AI can try. An evaluation checks whether it got the result right. A simulated environment lets it work through the steps in a separate system, using realistic information, actions and rules.
 
-Ben helps choose the starting point and brings in the right people. The Atab team provides the records and explains the platform. Someone at the business helps explain the work and check the cases. Liam handles building and testing the evaluations and simulated environment.
+Workflow selection comes after the first look at the data. For now, an overview of what exists and a sample of connected records will help us see where to start.
 
-## 1 Pick a company and workflow
+## What data helps and why
 
-Ben: which company has the clearest real examples to start with? YourMart, Nutrigo or Replay could work, but another client is fine if the records are better. Let Liam know what is live and what is still being built.
+| Data | What it helps us understand |
+| --- | --- |
+| Business records | Orders, stock, suppliers, invoices, requests or similar records show the situation people are working with. The relevant records depend on the platform. |
+| History and changes | Timestamps, status changes, edits and activity logs show what happened and in what order. Include human actions and existing automation where recorded. |
+| Related messages and documents | Emails, WhatsApp messages, spreadsheets and documents can explain the request, the decision or an exception that is missing from the platform records. |
+| Rules and outcomes | Instructions, approvals, completed work and corrections help explain what was allowed and whether the result was good or bad. |
 
-For the company you recommend, a few notes on these points would help:
+The useful part is being able to connect these records. For example, an order reference might link the request, stock changes, supplier messages and final delivery. Keep those links and timestamps where available.
 
-- What the business does and what Atab's platform handles.
-- Two or three recurring jobs, roughly how often they happen and where people need to make decisions or fix problems.
-- Which one workflow you would start with and why.
-- How much history is available, including whether earlier versions and changes are saved.
-- Any related work in email, WhatsApp, spreadsheets or other systems.
-- Who at Atab knows the software and who at the business can explain the work.
+## What would help from Ben first
 
-Choose one workflow with Liam before gathering the cases. Estimates are fine. If the platform has not launched or the history is limited, say so.
+- A short overview of the platforms, what each stores and which have real use. YourMart, Nutrigo and Replay are possible starting points; another client is fine.
+- An existing export or a small sample of related records, with a note on the period covered and anything left out.
+- A few notes on what the files and key fields mean, how records connect and whether earlier changes are saved.
+- Existing docs, rules or examples that help explain the data.
+- Someone at Atab who knows the software and someone at the business who can answer questions about the work.
 
-### What a workflow means here
-
-One job with a clear start and finish, such as handling an order that cannot be fulfilled as requested. Describe the actual job the business does, including decisions or conversations that happen outside the platform.
+Use what already exists. CSV, JSON, spreadsheets, documents and short notes are all useful. A walkthrough can fill in explanations. If a platform is not live or some history is missing, just flag it.
 
 <!-- pagebreak -->
 
-## 2 Pull together a few real cases
+## What we look for in the data
 
-Aim for three completed examples from that workflow: one routine case and two where someone had to investigate, make a decision or fix something. If fewer useful cases exist, send what you have and explain the gaps.
+A workflow is a real job with a start, a set of actions or decisions and an outcome. We look for work where someone has to connect information, apply rules, handle an exception or choose between options, and where we can check whether the result makes sense.
 
-Each case should show the work from the original request through to the result. Include mistakes, rejected actions and corrections if they happened.
+Some examples of what the data might reveal:
 
-### What helps for each case
+- Orders, stock and supplier updates could show how people resolve shortages or delayed deliveries.
+- Invoices, payments and corrections could show how people investigate a mismatch and fix the relevant records.
+- Requests, availability and approval records could show how people choose a workable option when there are constraints or conflicts.
 
-| Part of the case | What to include |
-| --- | --- |
-| The request | What started the work, what was needed and any deadline. Include the original order, message or ticket where available. |
-| What was known at the start | The records the person could see then, such as stock, existing commitments, previous messages or documents. |
-| Rules that mattered | Relevant instructions, approval limits and other constraints. If a rule is unwritten, say who can explain it. |
-| What happened | The actions, decisions, approvals and messages in order, with timestamps where available. Show what changed and distinguish people from automation. |
-| The result | The final records and what actually happened. Flag anything that failed or stayed unresolved. Keep promised dates separate from actual dates. |
-| How the result was judged | Why the result was acceptable or unacceptable, what would count as a mistake and whether another answer would also have worked. Name someone who can check this. |
-
-Use clear case and file references so Liam can find the supporting records. Keep what was known during the work separate from information discovered afterwards.
+These are examples to give the team a sense of what helps. We will see which directions the actual data supports. A promising workflow needs enough context to reconstruct the work and a sensible way to assess the result.
 
 ### An inventory example
 
-For an order that could not be fulfilled as requested, useful files might include the original order, stock and reservations, supplier updates, the employee's decision, approvals or customer messages, and the final fulfilment records. Use a real case and include the details that explain the decisions.
+Suppose the records show an order that could not be fulfilled as planned. Stock history, supplier updates and messages may explain how someone spotted the problem, chose an alternative and changed the order.
 
-### If something is missing
+That could become a task where an AI works through a similar situation while respecting stock, deadlines and approvals. To understand it properly, we would then ask for the specific linked records and someone who can explain why the chosen outcome was acceptable.
 
-A current export may not show what the person saw at the time. If earlier values or steps are missing, flag that. Notes from memory can still help; label them as recollections. The actual result may contain mistakes, so it should be checked rather than assumed to be the right answer.
+## How we work through it
 
-<!-- pagebreak -->
+- First, Ben and the team share what data is available and a useful starting sample.
+- Liam looks through it and asks questions to understand the records and the work behind them.
+- We identify promising workflows and gather more detail on specific examples, including routine cases, exceptions and corrections where available.
+- Liam builds and tests the evaluation or simulated environment. Someone who knows the business helps check the rules and outcomes.
 
-## 3 Explain how the platform works
+The detailed workflow and case prompts in the repository are there for that later step. They do not need to be completed before the initial data review.
 
-Existing docs or a screen walkthrough may cover most of this. A few notes on anything unclear are enough:
+## Sending the first material
 
-- Fields: what the important IDs, statuses and quantities mean, including units, currencies and timezones.
-- Linked records: how orders, stock, messages and other records connect, and how to find their history.
-- Actions: what a person can do, what each action changes, who can do it and why an action might be rejected.
-- Rules and outside steps: relevant business rules, approvals, dependencies and conversations outside the platform.
-- Automation: what the software already does automatically and where people review, correct or override it.
+One private folder shared with Liam is enough. Group the files by company or platform, use clear names and include a short note explaining what is in the folder. Keep linked IDs and timestamps so the records still connect.
 
-For example, if confirming an order also reserves stock, explain both changes and what happens if the order is cancelled. Liam uses these explanations to build the simulated actions and checks.
+Say what can be shared, anything that has been left out or had names or IDs replaced, and who can help with questions. If an export shows only current values, flag that; information learned later should not be mistaken for what was known at the time.
 
-## 4 Send the files and walk through a case
-
-Share one private folder with Liam. CSV, JSON or spreadsheet exports are fine; include the original documents and messages that explain the cases. Screenshots or a short recording can help show how the software is used.
-
-A useful folder contains:
-
-- A short company and workflow overview.
-- One folder per case, with its notes and connected records.
-- Existing rules, instructions and platform notes.
-- A simple file index and a list of gaps or questions.
-- The names of the people who can help explain the software and the work.
-
-Preserve timestamps, IDs and relationships between files. If names or identifiers are replaced, use the same replacements throughout. Let Liam know what can be shared, anything left out and who can help with sharing questions.
-
-### Before sending
-
-Check that Liam can open the folder, find each case's records and see what is missing. Say when the files are ready and suggest a time to walk through one case with the relevant people. Around 30 minutes is a useful starting point.
-
-During the walkthrough, show the original request, the starting records, the decisions and changes, and the result. Explain why the result made sense or where it went wrong. Liam will send back specific questions if anything else is needed.
+Once Liam has had a first look, a short walkthrough can help explain the data and narrow down what to explore next. There is no need to pre-select a workflow or prepare a fixed number of cases to get started.
